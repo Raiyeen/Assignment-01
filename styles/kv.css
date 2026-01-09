@@ -1,0 +1,135 @@
+
+/* shared css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.btn{
+    background-color: #469165;
+    padding: 13px 16px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+/* main css */
+nav{
+   width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+nav .logo img{
+    width: 140px;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+nav .menu a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+#banner{
+    width: 100%;
+    /* background-color: aqua; */
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.banner-content{
+    /* border: 1px solid red; */
+    width: 71%;
+    max-width: 1360px;
+    padding: 116px 0px 180px 0px;
+    margin: 0 auto;
+}
+
+.banner-content .early span{
+    display: inline-flex;          /* important */
+    align-items: center;           /* vertical center */
+    gap: 8px;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    
+}
+
+.banner-content .early{
+    margin-bottom: 16px;
+}
+
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.banner-content h1 span{
+    color: #30B868;
+}
+
+.banner-content .banner-info{
+    width: 74%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height:32px;
+    /* font-weight: 400; */
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.banner-content .banner-btn .btn{
+    padding: 16.5px 16px;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-right: 16px;
+    /* background-color: aqua; */
+}
+
+.banner-content .banner-btn .btn:nth-child(2){
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+.banner-content .banner-btn .btn .margin-left{
+    margin-left: 8px;
+}
+
+.banner-content .banner-btn .btn .margin-right{
+    margin-right: 8px;
+}
