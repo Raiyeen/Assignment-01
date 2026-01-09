@@ -26,13 +26,33 @@
     text-align: center;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-heading{
+    padding-top: 35px;
+}
+.section-heading h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #001931;
+}
+.section-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 44px;
+    color: #627382;
+}
 
 
 
 /* main css */
 nav{
-   width: 71%;
-    max-width: 1140px;
+   width: 91%;
+    max-width: 1600px;
     /* border: 1px solid red; */
     margin: 0 auto;
     display: flex;
@@ -62,14 +82,15 @@ nav .menu a{
     /* background-color: aqua; */
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
 }
 .banner-content{
     /* border: 1px solid red; */
-    width: 71%;
+    width: 48%;
     max-width: 1360px;
     padding: 116px 0px 180px 0px;
     margin: 0 auto;
+    /* background-color: aqua; */
 }
 
 .banner-content .early span{
@@ -132,4 +153,64 @@ nav .menu a{
 
 .banner-content .banner-btn .btn .margin-right{
     margin-right: 8px;
+}
+
+
+
+#note{
+    background-color: rgb(251, 251, 251);
+}
+#note .note-content{
+    /* background-color: aqua; */
+    width: 91%;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+#note .note-content .note-box{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.note-box .note-card{
+    padding: 70px 24px 24px 24px;
+    max-width: 350px;
+    background-color: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 8px 20px #00000011;
+    
+
+}
+
+.note-card .note-img{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(249, 85, 85);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+}
+.note-card .note-img img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain  
+}
+
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.note-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
 }
