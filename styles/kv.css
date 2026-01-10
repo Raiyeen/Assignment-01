@@ -200,7 +200,7 @@ nav .menu a{
 .note-card .note-img img{
     width: 25px;
     height: 25px;
-    object-fit: contain  
+    object-fit: contain; 
 }
 
 .note-card h3{
@@ -282,4 +282,107 @@ nav .menu a{
 .section-list ul li img{
     width: 20px;
     height: 20px;
+}
+
+
+#ready .ready-container{
+    max-width: 1600px;
+    width: 91%;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+#ready .ready-container .ready-content{
+    max-width: 600px;
+    /* border: 1px solid black; */
+    padding: 80px 0px 80px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ready-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    padding-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.ready-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.ready-content .btn .margin-left{
+    margin-left: 8px;
+}
+.ready-content .btn{
+    margin-bottom: 16px;
+}
+
+footer{
+    width: 100%;
+    margin-top: 120px;
+    background-color: #001931;
+    padding: 120px 0px 30px 0px;
+    
+}
+ footer .footer-container{
+    width: 91%;
+    max-width: 1600px;
+    margin: 0 auto 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+ }
+ .footer-container .flogo img{
+    width: 140px;
+ }
+ .footer-container .social p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+ }
+
+ .social-icon{
+    display: flex;
+    gap: 16px;
+ }
+
+
+.social-icon .icon-img{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+}
+
+footer .copyright{
+    width: 91%;
+    max-width: 1600px;
+    margin: 0 auto;
+    /* background-color: #30B868; */
+}
+footer .copyright hr.custom{
+    border: 1px solid #e5e7eb35;
+}
+footer .copyright p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FAFAFA;
+    padding-top: 30px;
 }
